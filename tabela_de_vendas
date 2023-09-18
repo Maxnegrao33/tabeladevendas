@@ -1,0 +1,11 @@
+
+create table comivenda 
+(
+	n_numivenda int not null AUTO_INCREMENT,
+	n_numevenda int not null,
+	n_numeprodu int not null,
+    n_valoivenda float(10,2),
+    n_qtdeivenda int,
+    n_descivenda float(10,2),
+    PRIMARY KEY (n_numivenda)
+);
